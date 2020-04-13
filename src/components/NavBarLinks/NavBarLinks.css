@@ -1,0 +1,8 @@
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .test {
+    color: red;
+  }
