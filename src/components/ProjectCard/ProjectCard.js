@@ -27,7 +27,6 @@ export default function ProjectCard(props) {
 
 
         <div className="card">
-
             <div className="card-title">
                 <h2>{name}</h2>
             </div>
