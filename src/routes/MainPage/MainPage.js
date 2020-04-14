@@ -8,11 +8,20 @@ import { Container, Row, Col } from 'react-bootstrap/'
 import Footer from "../../components/Footer/Footer";
 import ProjectCard from "../../components/ProjectCard";
 import { projects } from "../../data/projects";
+// import Background from '../../images/hotel-wallpaper.png'
+
+
+var backgroundStyle = {
+    backgroundImage: "../../images/hotel-wallpaper.png",
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat'
+};
 
 export default function MainPage() {
     return (
         <div className="main-page">
-            <Container className="background">
+            <Container style={backgroundStyle}>
                 <section>
                     <h1>Projects</h1>
                     <br></br>
@@ -42,3 +51,6 @@ export default function MainPage() {
         </div>
     );
 }
+
+
+

@@ -6,6 +6,8 @@ import photoSearch from "../../images/photosearch.jpg";
 import placeHolderImage from "./200x200.png";
 import trackRX from "../../images/trackrx.jpg";
 import weatherApp from "../../images/weatherapp.jpg";
+import financeApp from "../../images/financeApp.jpg"
+import fitnessTracker from "../../images/fitnessTracker.jpg"
 
 export default function ProjectCard(props) {
     const images = {
@@ -13,7 +15,9 @@ export default function ProjectCard(props) {
         photoSearch,
         placeHolderImage,
         trackRX,
-        weatherApp
+        weatherApp,
+        financeApp,
+        fitnessTracker
     };
 
     const {
@@ -26,7 +30,7 @@ export default function ProjectCard(props) {
     return (
 
 
-        <div className="card">
+        <div className="card">  
             <div className="card-title">
                 <h2>{name}</h2>
             </div>
