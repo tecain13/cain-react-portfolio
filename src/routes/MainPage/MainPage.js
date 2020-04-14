@@ -4,8 +4,7 @@
 import React from "react";
 import "./MainPage.css";
 import Bio from "../../components/Bio";
-
-// import Header from "../../components/Header/Header";
+import { Container, Row, Col } from 'react-bootstrap/'
 import Footer from "../../components/Footer/Footer";
 import ProjectCard from "../../components/ProjectCard";
 import { projects } from "../../data/projects";
@@ -16,15 +15,21 @@ export default function MainPage() {
             <section>
                 <h1>Projects</h1>
                 <br></br>
-                {projects.map(project => (
-                    <ProjectCard
-                        key={project.key}
-                        name={project.name}
-                        image={project.image}
-                        repositoryLink={project.repositoryLink}
-                        deployedLink={project.deployedLink}
-                    />
-                ))}
+                <Container>
+                    <Row>
+                        <Col xs={6} md={4}>
+                            {projects.map(project => (
+                                <ProjectCard
+                                    key={project.key}
+                                    name={project.name}
+                                    image={project.image}
+                                    repositoryLink={project.repositoryLink}
+                                    deployedLink={project.deployedLink}
+                                />
+                            ))}
+                        </Col>
+                    </Row>
+                </Container>
             </section>
             <section>
                 <br></br>
