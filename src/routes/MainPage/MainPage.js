@@ -11,7 +11,7 @@ import { projects } from "../../data/projects";
 // import Background from '../../images/hotel-wallpaper.png'
 
 
-var backgroundStyle = {
+var backgroundPosition = {
     backgroundImage: "../../images/hotel-wallpaper.png",
     backgroundPosition: 'center',
     backgroundSize: 'cover',
@@ -21,34 +21,56 @@ var backgroundStyle = {
 export default function MainPage() {
     return (
         <div className="main-page">
-            <Container style={backgroundStyle}>
-                <section>
-                    <h1>Projects</h1>
-                    <br></br>
-                    <Container>
-                        <Row>
-                            <Col xs={6} md={4}>
-                                {projects.map(project => (
-                                    <ProjectCard
-                                        key={project.key}
-                                        name={project.name}
-                                        image={project.image}
-                                        repositoryLink={project.repositoryLink}
-                                        deployedLink={project.deployedLink}
-                                    />
-                                ))}
+
+            <Container className="backgroundPic">
+                <Row>
+
+                    <Col lg={12}>
+                        <h1>Projects</h1>
+                        <br></br>
+                    </Col>
+
+                </Row>
+                <Row>
+                    {projects.map(project => (
+                        <Col lg={6} xs={12}>
+                            <ProjectCard
+                                key={project.key}
+                                name={project.name}
+                                image={project.image}
+                                repositoryLink={project.repositoryLink}
+                                deployedLink={project.deployedLink}
+                            />
+                        </Col>
+                    ))}
+
+
+
+
+
+
+
+                </Row>
+                <Row>
+
+                    <Col lg={12}>
+
+                        <br></br>
+                        <section className="biosection">
+                            <Col lg={12}>
+                                <h1>Bio</h1>
+                                <Bio />
                             </Col>
-                        </Row>
-                    </Container>
-                </section>
-                <section>
-                    <br></br>
-                    <h1>Bio</h1>
-                    <Bio />
-                </section>
-            </Container>
+                        </section>
+                    </Col>
+
+                </Row>
+
+
+            </Container >
+
             <Footer />
-        </div>
+        </div >
     );
 }
 

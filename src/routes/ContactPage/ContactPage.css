@@ -2,3 +2,15 @@
     font-size: 40px;
     font-weight: bold;
   }
+
+    
+  .contact-page .backgroundPic{
+    background-image: url("https://www.wallpaperdepot.co.uk/images/graham-brown-myrtle-geometric-white-and-silver-cube-wallpaper-104121-p2333-4502_image.jpg");
+    width: 100vw;
+  }
+
+
+  .contact-page .contactsection{
+    height: 100vh;
+    margin-top: 50px;
+  }

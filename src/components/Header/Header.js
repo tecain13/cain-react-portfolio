@@ -9,7 +9,6 @@ export default function Header() {
         <nav className="header">
             <Logo />
             <NavBarLinks />
-         
         </nav>
     );
 }

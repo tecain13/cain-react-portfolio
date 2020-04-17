@@ -1,3 +1,7 @@
+.nav{
+  justify-content: center;
+}
+
 .navbar-links {
     display: flex;
     flex-direction: row;

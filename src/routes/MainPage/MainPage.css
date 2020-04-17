@@ -3,7 +3,24 @@
     font-weight: bold;
   }
 
-/* 
-  .main-page background{
-    background-image: "../../images/hotel-wallpaper.png"; 
-  } */
+
+  .main-page Container {
+    align-self: centenpm starrtr;
+  } 
+
+  .main-page p{
+    font-size: x-large;
+    /* font-weight: bold; */
+    color: white;
+  }
+  
+  .main-page .backgroundPic{
+    background-image: url("https://www.wallpaperdepot.co.uk/images/graham-brown-myrtle-geometric-white-and-silver-cube-wallpaper-104121-p2333-4502_image.jpg");
+    width: 100vw;
+  }
+
+  .main-page .biosection{
+    background-color: gray;
+    opacity: 90%;
+    margin-bottom: 30px;
+  }
