@@ -16,7 +16,7 @@ export default function ContactPage() {
 
 
                         <h1>Contact Me</h1>
-                        <ListGroup className = "contactsection">
+                        <ListGroup className="contactsection">
                             <ListGroup.Item>Email: tecain13@gmail.com</ListGroup.Item>
                             <ListGroup.Item>Phone: 801-712-8481</ListGroup.Item>
                             <a href="https://github.com/tecain13">
@@ -32,7 +32,7 @@ export default function ContactPage() {
                 </Row>
 
             </Container>
-            {/* <br></br> */}
+
 
             <Footer />
         </div>

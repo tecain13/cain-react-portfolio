@@ -51,12 +51,12 @@ export default function MainPage() {
 
                         <br></br>
 
-                        <section className="biosection">
+                        <div className="biosection">
                             <Col lg={12}>
                                 <h1>Bio</h1>
                                 <Bio />
                             </Col>
-                        </section>
+                        </div>
                     </Col>
 
                 </Row>
