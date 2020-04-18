@@ -17,7 +17,7 @@ As an aspiring developer, I need to keep pace with some of the latest technology
 This version of my portfolio allowed me to leverage the strengths of React and become more familiar with its functionality.
 
 ### Tech and Features Used
-​React Javascript JQuery Random User API Axios
+​React Javascript JQuery Bootstrap
 
 ## How to use
 ​On the hosted webpage, explore my projects and connect with me using any of the information on the contact page. 
