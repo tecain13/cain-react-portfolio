@@ -11,12 +11,12 @@ import { projects } from "../../data/projects";
 // import Background from '../../images/hotel-wallpaper.png'
 
 
-var backgroundPosition = {
-    backgroundImage: "../../images/hotel-wallpaper.png",
-    backgroundPosition: 'center',
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat'
-};
+// var backgroundPosition = {
+//     backgroundImage: "../../images/hotel-wallpaper.png",
+//     backgroundPosition: 'center',
+//     backgroundSize: 'cover',
+//     backgroundRepeat: 'no-repeat'
+// };
 
 export default function MainPage() {
     return (
@@ -43,19 +43,14 @@ export default function MainPage() {
                             />
                         </Col>
                     ))}
-
-
-
-
-
-
-
                 </Row>
+
                 <Row>
 
                     <Col lg={12}>
 
                         <br></br>
+
                         <section className="biosection">
                             <Col lg={12}>
                                 <h1>Bio</h1>

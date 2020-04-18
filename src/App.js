@@ -14,7 +14,7 @@ function App() {
 
         <Switch>
           <Route path="/cain-react-portfolio/" exact component={MainPage} />
-          <Route path="/contact" exact component={ContactPage} />
+          <Route path="/cain-react-portfolio/contact" exact component={ContactPage} />
         </Switch>
 
       </Router>
