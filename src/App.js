@@ -13,8 +13,8 @@ function App() {
         <Header />
 
         <Switch>
-          <Route path="/" exact component={MainPage} />
-          <Route path="/contact" component={ContactPage} />
+          <Route path="/cain-react-portfolio/" exact component={MainPage} />
+          <Route path="/cain-react-portfolio/contact" component={ContactPage} />
         </Switch>
         
       </Router>
