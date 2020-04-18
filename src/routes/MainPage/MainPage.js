@@ -41,7 +41,7 @@ export default function MainPage() {
 
                         <br></br>
 
-                        <div className="biosection">
+                        <div >
                            
                                 <h1>Bio</h1>
                                 <Bio />

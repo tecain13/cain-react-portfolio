@@ -4,7 +4,7 @@ import MainPage from "./routes/MainPage";
 import ContactPage from "./routes/ContactPage";
 import "./App.css";
 import Header from "./components/Header/Header";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
