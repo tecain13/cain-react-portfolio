@@ -36,19 +36,14 @@ export default function MainPage() {
                 </Row>
 
                 <Row>
-
                     <Col lg={12}>
 
                         <br></br>
-
-                        <div >
-                           
+            
                                 <h1>Bio</h1>
                                 <Bio />
-                          
-                        </div>
+            
                     </Col>
-
                 </Row>
 
 
