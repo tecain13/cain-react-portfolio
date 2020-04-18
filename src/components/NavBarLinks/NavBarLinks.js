@@ -1,20 +1,20 @@
 import React from "react";
 import "./NavBarLinks.css";
 import { Nav, Button } from 'react-bootstrap';
-
+import { Link } from "react-router-dom";
 
 export default function NavBarLinks() {
     return (
         <Nav>
             <Nav.Item>
                 <Button variant="outline-light" size="sm" active>
-                    <Nav.Link href="/">Home</Nav.Link>
+                    <Link to={`/`}>Home</Link>
                 </Button>
             </Nav.Item>
 
             <Nav.Item>
                 <Button variant="outline-light" size="sm" active>
-                    <Nav.Link href="/contact">Contact</Nav.Link>
+                <Link to={`/contact`}>Contact</Link>
                 </Button>
             </Nav.Item>
         </Nav>
