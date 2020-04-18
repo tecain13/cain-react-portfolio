@@ -8,7 +8,7 @@ export default function NavBarLinks() {
         <Nav>
             <Nav.Item>
                 <Button variant="outline-light" size="sm" active>
-                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/cain-react-portfolio">Home</Nav.Link>
                 </Button>
             </Nav.Item>
 
