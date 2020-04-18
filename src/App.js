@@ -12,8 +12,8 @@ function App() {
       <Router basename={process.env.PUBLIC_URL}>
         <Header />
         <Switch>
-          <Route exact path="/cain-react-portfolio/" component={MainPage} />
-          <Route path="/cain-react-portfolio/contact" component={ContactPage} />
+          <Route exact path="/" component={MainPage} />
+          <Route path="/contact" component={ContactPage} />
         </Switch>
 
       </Router>

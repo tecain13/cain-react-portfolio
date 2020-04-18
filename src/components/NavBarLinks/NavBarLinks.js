@@ -8,13 +8,13 @@ export default function NavBarLinks() {
         <Nav>
             <Nav.Item>
                 <Button variant="outline-light" size="sm" active>
-                    <Nav.Link href="/cain-react-portfolio">Home</Nav.Link>
+                    <Nav.Link href="/">Home</Nav.Link>
                 </Button>
             </Nav.Item>
 
             <Nav.Item>
                 <Button variant="outline-light" size="sm" active>
-                    <Nav.Link href="/cain-react-portfolio/contact">Contact</Nav.Link>
+                    <Nav.Link href="/contact">Contact</Nav.Link>
                 </Button>
             </Nav.Item>
         </Nav>
