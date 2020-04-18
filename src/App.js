@@ -9,9 +9,8 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Header />
-
         <Switch>
           <Route exact path="/cain-react-portfolio/" component={MainPage} />
           <Route path="/cain-react-portfolio/contact" component={ContactPage} />
